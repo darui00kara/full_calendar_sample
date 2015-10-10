@@ -1,5 +1,5 @@
 # Goal
-Phoenix-Framework上でFullCalendar(js)を動作させる。
+Phoenix-Framework上でFullCalendar(js)を動作させる。  
 
 # Dev-Environment
 OS: Windows8.1  
@@ -10,18 +10,18 @@ PostgreSQL: postgres (PostgreSQL) 9.4.4
 FullCalendar: v2.4.0  
 
 # Wait a minute
-FullCalendar(js)を使って、カレンダーを表示してみます。
+FullCalendar(js)を使って、カレンダーを表示してみます。  
 
 # Index
-FullCalendar with Phoenix-Framework 
+FullCalendar with Phoenix-Framework  
 |> Before you start  
 |> Placement of files  
 |> Let's run!!  
 
 ## Before you start
-プロジェクトの準備とFullCalendarのダウンロードを行います。
+プロジェクトの準備とFullCalendarのダウンロードを行います。  
 
-プロジェクトの準備。
+プロジェクトの準備。  
 
 ```cmd
 >cd path/to/create/project
@@ -32,17 +32,17 @@ FullCalendar with Phoenix-Framework
 Ctrl+C
 ```
 
-FullCalendarのダウンロード。
+FullCalendarのダウンロード。  
 
 #### 以下の公式サイトよりダウンロードして下さい。
 #### FullCalendar Download: [http://fullcalendar.io/download/](http://fullcalendar.io/download/)
 
-私がダウンロードしたのは、v2.4.0です。
+私がダウンロードしたのは、v2.4.0です。  
 
 ## Placement of files
-FullCalendarのファイルをPhoenix-Frameworkへ配置します。
+FullCalendarのファイルをPhoenix-Frameworkへ配置します。  
 
-配置するファイルは5つです。
+配置するファイルは5つです。  
 
 - fullcalendar-2.4.0/fullcalendar.js
 - fullcalendar-2.4.0/
@@ -50,7 +50,7 @@ FullCalendarのファイルをPhoenix-Frameworkへ配置します。
 - fullcalendar-2.4.0/lib/moment.min.js
 - fullcalendar-2.4.0/lang/ja.js (任意、日本語表示したい場合)
 
-プロジェクトに以下のように配置して下さい。
+プロジェクトに以下のように配置して下さい。  
 
 #### Example:
 
@@ -71,12 +71,12 @@ priv
        |-ja.js (任意、日本語表示したい場合)
 ```
 
-これで配置完了です。
+これで配置完了です。  
 
 ## Let's run!!
-お待ちかねのカレンダーを出してみましょう。
+お待ちかねのカレンダーを出してみましょう。  
 
-cssとjsの読み込みをレイアウトテンプレートで行います。
+cssとjsの読み込みをレイアウトテンプレートで行います。  
 
 #### web/templates/layout/app.html.eex
 
@@ -97,7 +97,7 @@ cssとjsの読み込みをレイアウトテンプレートで行います。
 </html>
 ```
 
-デフォルトで配置されているindexテンプレートを以下のように変更します。
+デフォルトで配置されているindexテンプレートを以下のように変更します。  
 
 #### web/templates/page/index.html.eex
 
@@ -113,10 +113,10 @@ $(document).ready(function() {
 <div id="calendar"></div>
 ```
 
-基本的な使い方は公式サイトのUsageを見て下さい。
-参考: [http://fullcalendar.io/docs/usage/](http://fullcalendar.io/docs/usage/)
+基本的な使い方は公式サイトのUsageを見て下さい。  
+参考: [http://fullcalendar.io/docs/usage/](http://fullcalendar.io/docs/usage/)  
 
-試しにカレンダーでイベント(予定)を表示してみます。
+試しにカレンダーでイベント(予定)を表示してみます。  
 
 #### web/templates/page/index.html.eex
 
@@ -153,8 +153,8 @@ $(document).ready(function() {
 ```
 
 # Speaking to oneself
-割かし簡単に動いた。
-取り急ぎ最初の使い方まで。
+割かし簡単に動いた。  
+取り急ぎ最初の使い方まで。  
 
 # Bibliography
-[FullCalendar](http://fullcalendar.io/)
+[FullCalendar](http://fullcalendar.io/)  
