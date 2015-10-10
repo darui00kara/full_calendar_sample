@@ -23,6 +23,8 @@ FullCalendar with Phoenix-Framework
 
 プロジェクトの準備。  
 
+#### Example:
+
 ```cmd
 >cd path/to/create/project
 >mix phoenix.new full_calendar_sample
@@ -45,7 +47,7 @@ FullCalendarのファイルをPhoenix-Frameworkへ配置します。
 配置するファイルは5つです。  
 
 - fullcalendar-2.4.0/fullcalendar.js
-- fullcalendar-2.4.0/
+- fullcalendar-2.4.0/fullcalendar.min.css
 - fullcalendar-2.4.0/lib/jquery.min.js
 - fullcalendar-2.4.0/lib/moment.min.js
 - fullcalendar-2.4.0/lang/ja.js (任意、日本語表示したい場合)
