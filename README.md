@@ -35,7 +35,7 @@ Ctrl+C
 FullCalendarのダウンロード。
 
 #### 以下の公式サイトよりダウンロードして下さい。
-#### Download: (http://fullcalendar.io/download/)[http://fullcalendar.io/download/]
+#### FullCalendar Download: [http://fullcalendar.io/download/](http://fullcalendar.io/download/)
 
 私がダウンロードしたのは、v2.4.0です。
 
@@ -114,7 +114,7 @@ $(document).ready(function() {
 ```
 
 基本的な使い方は公式サイトのUsageを見て下さい。
-(http://fullcalendar.io/docs/usage/)[http://fullcalendar.io/docs/usage/]
+参考: [http://fullcalendar.io/docs/usage/](http://fullcalendar.io/docs/usage/)
 
 試しにカレンダーでイベント(予定)を表示してみます。
 
